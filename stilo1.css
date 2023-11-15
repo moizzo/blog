@@ -7,6 +7,11 @@ header h1 {
     font-size: 4rem;
     text-align: center;
 }
+.menu {
+    align-items: center;
+}
+
+
 body {
     background-image: url("/img/fondo.jpg");
     background-size: contain;
@@ -16,6 +21,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .post {
+    
     border: 4px;
     border-radius: 2px;
     margin: 1rem,2rem, 1rem, 2rem;
@@ -35,6 +41,5 @@ body {
     position: 5rem, 5rem, 5rem, 5rem;
 }
 section article #post{
-    align-items: center
+    align-items: flex-start
 }
-/*gfygfhgf*/
