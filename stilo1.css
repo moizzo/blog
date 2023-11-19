@@ -16,6 +16,13 @@ header {
     height: 200px;
     margin: 0px;
     padding: 0px;
+    transition-duration: 2s;
+    
+}
+#logo:hover{
+    background-color: rgb(127, 223, 255);
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
 }
 a {
     text-decoration: none;
@@ -57,8 +64,8 @@ body {
 section article #post{
     align-items: flex-start
 }
-@media (max-width; 700px){
-    header {
+@media (max-width: 700px){
+    #menu {
         flex-direction: column;
     }
     nav {
