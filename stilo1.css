@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    margin: 0px;
 }
 a {
     text-decoration: none;
@@ -49,25 +48,35 @@ header.h2 {
     border-radius: 5px;
 
 }
-.blogsection {
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 15px;
-}
+
 #descripcion {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
     text-align: center;
 }
+
+.blogsection {
+    width: 100%;
+    display: flex;
+}
+
+
+
 .post {
-    border: 3px;
+    width: 100%;
+    margin: 20px;
+    justify-items: center;
     border-radius: 5px;
-    margin: 1rem,2rem, 1rem, 2rem;
-    padding: 1rem ;
-    background-color: rgba(15, 145, 145, 0.3)
-    
+    padding: auto;
+    overflow: hidden;
+    background-color: #f3f6f8;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.post:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-2%) translateX(-1%);
 }
 .post h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -76,15 +85,23 @@ header.h2 {
 .post p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-article {
+.article {
     padding: 5px 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+.foto {
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
 }
 
-#foto {
-    height: 300px;
-    position: 5rem, 5rem, 5rem, 5rem;
+.foto img {
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 5px;
-
+    padding: 15px 20px;
+    
 }
 
 
