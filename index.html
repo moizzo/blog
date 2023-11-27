@@ -29,40 +29,45 @@
             <h2>Otoño en Zaragoza</h2>
                 <h3>Las calles se llenan de magia</h3>
                 <div class="foto">   
-                <img src="img/otoño en zaragoza.jpg">
+                <img src="img/paseo gran via.png">
                 </div> 
-            <p><strong> de la Gran via</strong></p>
             <p class="articulo">
-                llega el otoño a zaragoza un poco retrasado debido al
+                Llega el otoño a zaragoza un poco retrasado debido al
                 cambio climatico pero lleno de una belleza sin igual.
             </p>
+            <button class="leerMas">
+                Leer mas
+            </button>
         </article>
 
         <article class="post">
             <h2>Zaragoza de Noche</h2>
                 <h3>La ciudad se vuelve magica cuando llega la noche</h3>
                 <div class="foto">    
-                <img src="img/zaragoza de noche.jpg">
+                <img src="img/calle san felipe.png">
                 </div>
-            <p>Foto Calle del Pilar</p>
             <p class="articulo">
                 Ya cumplidos tres meses en Zaragoza, me atrevo a describir la experiencia hasta ahora.
                 
             </p>
+            <button class="leerMas">
+                Leer mas
+            </button>
         </article>
 
         <article class="post">
             <h2>Iglesia del Pilar de noche</h2>
                 <h3>La magia</h3>
                 <div class="foto" >  
-                <img src="img/zaragoza nocturna.jpg">
+                <img src="img/plaza del pilar de noche.png">
                 </div>
-            <p>Plaza del Pilar de noche</p>
             <p class="articulo">
 				Un momumente a la arquitectura que tambien cobra vida de noche
                 sus imponentes cupulas son visibles a kilometros de distancia.
-                La decoracion interna es toda una obra de arte.
             </p>
+            <button class="leerMas">
+                Leer mas
+            </button>
         </article>
 </section>
 
@@ -70,31 +75,26 @@
 <div class="contacSection">
     <form action="/Formulario" method="POST">
 
-        <label for="nombre">Nombre</label>
+        <label for="nombre" class="label">Nombre</label>
         <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
         <br>
-        <label for="apellido">apellido</label>
-        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <label for="Email" class="label">Email</label>
+        <input type="text" id="Email" name="Email" placeholder="Email"/>
         <br>
-        <label id="comentario">Comentario</label>
+        <label id="comentario" class="label">Comentario</label>
         <br>
         <textarea cols="50" rows="10" id="comentario" placeholder="ingresa comentario" name="comentario"></textarea>
         <br>
 
+        <div class="cajaBotones">
         <button type="reset">tipo Reset</button>
         <button type="button">tipo boton</button>
         <button type="submit">tipo submit</button>
-
+        </div>
     </form>
     <img src="img/logo mozzorrete.jpg" width="200"/>
     <br>
 
-    <!--boton con imagen que direcciona a una pagina externa o interna-->
-    <button>
-    
-        <a target="_blank" href="https://www.google.com" title="Visita Google"><img src="img/smiley.gif" style="width: 50px;"></a>
-    
-    </button>
 </div>
 <footer>
     <a href="#titulo">Inicio</a>
