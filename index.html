@@ -73,28 +73,29 @@
 
 
 <div class="contacSection">
+    <div class="tituloForm">
+        <h3>Contàctame</h3>
+        <p>Deja tus datos y pronto nos pondremos en contacto</p> 
+    </div>
     <form action="/Formulario" method="POST">
-
         <label for="nombre" class="label">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <input type="text" id="nombre" name="nombre" placeholder=" "/>
+        <spam class="linea"></spam>
         <br>
         <label for="Email" class="label">Email</label>
-        <input type="text" id="Email" name="Email" placeholder="Email"/>
+        <input type="text" id="Email" name="Email" placeholder=" "/>
+        <spam class="linea"></spam>
         <br>
         <label id="comentario" class="label">Comentario</label>
         <br>
-        <textarea cols="50" rows="10" id="comentario" placeholder="ingresa comentario" name="comentario"></textarea>
+        <textarea cols="50" rows="10" id="comentario" placeholder=" " name="comentario"></textarea>
         <br>
 
         <div class="cajaBotones">
-        <button type="reset">tipo Reset</button>
-        <button type="button">tipo boton</button>
-        <button type="submit">tipo submit</button>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
         </div>
     </form>
-    <img src="img/logo mozzorrete.jpg" width="200"/>
-    <br>
-
 </div>
 <footer>
     <a href="#titulo">Inicio</a>
