@@ -191,6 +191,7 @@ label:focus-within {
 textarea {
     font-family: "roboto";
     border-radius: 5px;
+
     background: none;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     outline: none;
@@ -198,7 +199,7 @@ textarea {
     transition: all 400ms ease-in-out;
 }
 #comentario {
-    text-align: center;
+    text-align: justify;
     transition: all 400ms ease-in-out;
 }
 textarea:hover,
@@ -224,6 +225,13 @@ textarea:focus {
     background: none;
 }
 .cajaBotones button:active {
-    transform: translateY(-2px) translateX(-2px);
+    transform: translateY(2px) translateX(2px);
     box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+    background-color: aliceblue;
 }
+.checkbox {
+    margin-right: 1px; 
+    padding: 0px;
+    background-color: none;
+  }
+  
