@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, #d71fef 0%, #0083f5 81%, #38afe9 9%);
 }
 a {
     text-decoration: none;
@@ -10,7 +11,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f3f6f8;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
     height: 100px;
     padding: 5px;
     margin: 5px;
@@ -29,6 +31,7 @@ header.h2 {
 .logo:hover{
     color: rgb(35, 34, 34);
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    background-color: #f3f6f88a;
     transform: translateY(-2%) translateX(-1%);
     cursor: pointer;
 }
@@ -66,7 +69,8 @@ header.h2 {
     border-radius: 5px;
     padding: 5px;
     overflow: hidden;
-    background-color: #f3f6f8;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -99,6 +103,7 @@ header.h2 {
 .foto {
     height: 300px;
     width: 100%;
+    border-radius: 5px;
     overflow: hidden;
     position: relative;
 }
@@ -129,7 +134,6 @@ header.h2 {
     color: rgb(35, 34, 34);
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-2%) translateX(-1%);
-    font-weight: bolder;
 }
 
 @media (max-width: 620px) {
@@ -230,8 +234,21 @@ textarea:focus {
     background-color: aliceblue;
 }
 .checkbox {
-    margin-right: 1px; 
     padding: 0px;
-    background-color: none;
   }
-  
+
+footer {
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+footer .MediaIcons {
+    flex-direction: column;
+    display: flex;
+}
+.MediaIcons img {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
