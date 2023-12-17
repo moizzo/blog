@@ -94,11 +94,12 @@
         <p>Deja tus datos y pronto nos pondremos en contacto</p> 
     </div>
     <form action="/Formulario" method="POST">
-        <label for="nombre" class="label">Nombre</label>
+        <legend>informacion personal</legend>
+        <label for="nombre" class="label" required>Nombre</label>
         <input type="text" id="nombre" name="nombre" placeholder=" "/>
         <spam class="linea"></spam>
         <br>
-        <label for="Email" class="label">Email</label>
+        <label for="Email" class="label" required>Email</label>
         <input type="text" id="Email" name="Email" placeholder=" "/>
         <spam class="linea"></spam>
         <br>
@@ -116,12 +117,23 @@
     </form>
 </div>
 <footer>
+    <div class="LeftFooter">
+    <p><a href="#titulo">Inicio</a></p>
+    <p><a href="http://www.google.com" target="_blank"> Redes Sociales</a></p>
     <div class="MediaIcons">
         <a href="#" class="icon"> <img src="/img/logoyoutube.webp" alt=""></a>
         <a href="#" class="icon"> <img src="/img/logofacebook.png" alt=""></a>
     </div>
-<a href="#titulo">Inicio</a>
-<a target="_blank" href="http://www.google.com">visita google</a>
+    </div>
+    
+    <div class="RigthFooter">
+        <p><a href="#titulo">Tienda</a></p>
+        <p><a href="http://www.google.com" target="_blank"> Contacto</a></p>
+        <div class="MediaIcons">
+            <a href="#" class="icon"> <img src="/img/linkedin.png" alt=""></a>
+            <a href="#" class="icon"> <img src="/img/email.png"alt=""></a>
+        </div>
+        </div>
 </footer>
 <p id="output"></p>
 <script type="text/javascript" src="script.js"></script>

@@ -198,8 +198,24 @@ header.h2 {
 .contacSection {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: initial;
     align-items: center;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+.tituloForm h3{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-right: 120px;
+    margin-right: 100px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    width: fit-content;
 }
 form {
     display: flex;
@@ -209,6 +225,10 @@ form {
     gap: 5px;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     border-radius: 5px;
+}
+legend {
+    display: block;
+    margin: auto;
 }
 input {
     width: 90%;
@@ -279,17 +299,34 @@ textarea:focus {
 }
 
 footer {
-    height: 200px;
-    width: auto;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
-footer .MediaIcons {
-    flex-direction: column;
-    display: flex;
+.LeftFooter {
+    text-align: left;
+    height: 8%;
+    font-size: 20px;
+    margin: 40px;
 }
-.MediaIcons img {
+.LeftFooter p{
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.LeftFooter .MediaIcons img {
     height: 50px;
-    width: 50px;
-    padding: 5px;
+    padding: 0px 15px
+}
+.RigthFooter {
+    text-align: right;
+    height: 8%;
+    font-size: 20px;
+    margin: 40px;
+}
+.RigthFooter p{
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.RigthFooter .MediaIcons img {
+    height: 50px;
+    padding: 0px 15px
 }
