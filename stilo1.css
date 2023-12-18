@@ -201,7 +201,7 @@ header.h2 {
     flex-direction: initial;
     align-items: center;
     width: 500px;
-    margin-left: 30%;
+    margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
     
@@ -296,6 +296,9 @@ textarea:focus {
 }
 .checkbox {
     padding: 0px;
+    width: auto;
+    height: auto;
+    margin: auto;
 }
 
 footer {
