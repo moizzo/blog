@@ -87,7 +87,7 @@
         </article>
 </section>
 
-
+<!--formulario de contacto-->
 <div class="contacSection">
     <div class="tituloForm">
         <h3>Contàctame</h3>
@@ -96,20 +96,21 @@
     <form action="/Formulario" method="POST">
         <legend>informacion personal</legend>
         <label for="nombre" class="label" required>Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder=" "/>
+        <input type="text" id="nombre" for="nombre" name="nombre" placeholder=" "/>
         <spam class="linea"></spam>
         <br>
         <label for="Email" class="label" required>Email</label>
         <input type="text" id="Email" name="Email" placeholder=" "/>
         <spam class="linea"></spam>
         <br>
-        <label id="comentario" class="label">Comentario</label>
+        <label id="comentario" for="comentario" class="label">Comentario</label>
         <br>
         <textarea cols="50" rows="10" id="comentario" placeholder=" " name="comentario"></textarea>
         <br>
         <div id="checkpoli">
-        <label class="APoli" for="checkpoli">Acepta politicas</label>
         <input class="checkpoli" for="APoli" type="checkbox"></input>
+        <label class="APoli" for="checkpoli">Acepta politicas</label>
+        
         </div>
         
         <div class="cajaBotones">
@@ -120,7 +121,6 @@
     </form>
 </div>
 <footer>
-    
     <div class="LeftFooter">
         <p><a href="#titulo">Inicio</a></p>
         <p><a href="http://www.google.com" target="_blank"> Redes Sociales</a></p>

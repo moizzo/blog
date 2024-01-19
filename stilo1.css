@@ -244,13 +244,21 @@ input {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     font-weight: bolder;
 }
+.checkpoli {
+    width: unset;
+}
+.checkpoli:hover{
+    transform: none;
+}
+.checkpoli:active{
+    transform: none;
+}
 input:hover,
 input:focus,
 label:focus-within {
     background-color: white;
     transform: translateY(-3px) translateX(-2px);
 }
-
 textarea {
     font-family: "roboto";
     border-radius: 5px;
