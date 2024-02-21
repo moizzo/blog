@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width initial-scale="1.0">
+<meta name="viewport" content="width=device-width" initial-scale="1.0" >
 <head>
     <title>Moizzo</title>
     <link href="/stilo1.css" rel="stylesheet">
@@ -11,7 +11,7 @@
     <div>
         <img class="logo"  src="/img/1.png" alt="logo moshe">
     </div>
-    <div><h2>Moshe Studio</h2></div>
+    <div class="tittle"><h2>Moshe Studio</h2></div>
     <nav class="menu">
         <a href="" class="nav-link">Inicio</a>
         <a href="" class="nav-link">Blog</a>
@@ -78,7 +78,7 @@
                 <img src="img/plaza del pilar de noche.png">
                 </div>
             <p class="articulo">
-				Un momumente a la arquitectura que tambien cobra vida de noche
+				Un monumento a la arquitectura que tambien cobra vida de noche
                 sus imponentes cupulas son visibles a kilometros de distancia.
             </p>
             <button class="leerMas">
@@ -88,13 +88,13 @@
 </section>
 
 <!--formulario de contacto-->
+<div class="tituloForm">
+    <h3>Contàctame</h3>
+    <p>Deja tus datos y pronto nos pondremos en contacto</p> 
+</div>
 <div class="contacSection">
-    <div class="tituloForm">
-        <h3>Contàctame</h3>
-        <p>Deja tus datos y pronto nos pondremos en contacto</p> 
-    </div>
     <form action="/Formulario" method="POST">
-        <legend>informacion personal</legend>
+        <legend>Informacion personal</legend>
         <label for="nombre" class="label" required>Nombre</label>
         <input type="text" id="nombre" for="nombre" name="nombre" placeholder=" "/>
         <spam class="linea"></spam>
@@ -108,9 +108,7 @@
         <textarea cols="50" rows="10" id="comentario" placeholder=" " name="comentario"></textarea>
         <br>
         <div id="checkpoli">
-        <input class="checkpoli" for="APoli" type="checkbox"></input>
-        <label class="APoli" for="checkpoli">Acepta politicas</label>
-        
+            <label class="checkpoli" for="agree"><input class="checkpoli" for="agree" type="checkbox" name="agree">Acepto politica de tratamiento de datos</label>
         </div>
         
         <div class="cajaBotones">
